@@ -1,10 +1,12 @@
 # Ryder Meehan
 # m02_lab.py
+# name: string for a student's name
+# gpa: float for a student's GPA
 # This program takes a student's name as an input and asks the user to
 # enter the student's GPA and then outputs if the student has made the
 # honor roll or dean's list
 
-name = input
+name = str
 
 while name != "ZZZ":
 
@@ -14,7 +16,7 @@ while name != "ZZZ":
         quit
 
     else:
-        gpa = float(input("Enter student gpa: "))
+        gpa = float(input("Enter student GPA: "))
 
         if gpa >= 3.5:
             print("Student has made the Dean's List")
