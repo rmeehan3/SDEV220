@@ -40,4 +40,4 @@ print("Model:", whip.model)
 print("Doors:", whip.doors)
 print("Roof Type:", whip.roof)
 
-input("Press ENTER to exit") #put this here to stop the program for immediately closing once output was complete
+input("Press ENTER to exit") #put this here to stop the program from immediately closing once output was complete
